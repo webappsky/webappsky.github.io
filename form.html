@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!--Google font (KO)-->
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Open+Sans&display=swap" rel="stylesheet">
+		<!-- Font Awesome link for icon class -->
+		<script src="https://kit.fontawesome.com/68f8681dba.js" crossorigin="anonymous"></script>
+
+		<!---Boostrap 4 CSS (KO)--->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+		<!---Boostrap 4 Javascript (KO)--->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>		
+		
+		<!--- CSS (KO)--->			
+		<link rel="stylesheet" href="css/style.css">
+
+		<title>hello Hong Kong</title>	
+    <link rel="shortcut icon" type="" href="image/heart.png">
+		
+	</head>
+	
+	<body>		
+      <header>
+
+      </header>
+	  
+	  
+		<!--################## Apply START HERE#####################-->		
+		<div style="margin-top:80px;"></div>
+
+    <h3 class="text-center">即時報名</h3> 		
+
+    <div class="container">
+      <div class="col-lg-8 col-md-12 col-sm-12 col-12 m-auto">        
+
+        <!--h3 class="display-3 text-center my-4">Apply</h3-->
+        <!--h3 class="text-center">即時報名</h3-->      
+        
+        <!-- FORM -->
+        <!--form action="" method=""-->
+        <form action="thankyou.html" method="get" id="form">
+          <!-- TEXT FIELD GROUPS -->
+          <div class="form-group">
+            <label class="asterisk" for="name">姓名</label>
+            <input class="form-control"  required type="text" id="name" placeholder="請填姓名">
+          </div>
+          <div class="form-group required">
+            <label class="asterisk" for="email">電郵地址</label>
+            <input class="form-control"  required type="email" id="email" placeholder="請填電郵地址">
+            <small class="form-text text-muted">我們永不發放您的電郵地址給第三方</small>
+          </div>					
+        
+          <!-- SELECT -->				
+          <div class="form-group required">
+            <label class="asterisk" for="multioption">心水活動</label>
+            <select multiple  required class="form-control" id="multioption">
+              <option>深度船 P（海上篇） - 10月</option>
+              <option>深度行山（旅行篇） - 11月</option>
+              <option>狂歡派對（室內篇） - 12月</option>					  
+            </select>
+          </div>
+              
+          <!-- TEXTAREA -->
+          <div class="form-group">
+            <label for="message">歡迎留言</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          
+          <label class="asterisk"></label><label>  欄位必須填選</label>			
+          
+          <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-send-o"></i> 訂位</button> 				
+      
+        </form>
+
+      </div>  
+    </div>	
+    
+    <br>
+	  
+    <footer>	   
+	       
+    </footer>
+
+		
+		<script src='js/script.js'></script>
+	</body>
+	
+</html>
